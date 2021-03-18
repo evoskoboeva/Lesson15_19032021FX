@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<GridPane alignment="center" hgap="10" prefHeight="116.0" prefWidth="164.0" vgap="10" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <TextField fx:id="txtCalc1" prefHeight="13.0" prefWidth="164.0" />
+    <Button fx:id="btn_ok" mnemonicParsing="false" onAction="#calc" text="Ok" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+      <TextField fx:id="txtCalc2" GridPane.columnIndex="1"/>
+   </children>
+   <columnConstraints>
+      <ColumnConstraints minWidth="10.0" prefWidth="100.0" />
+      <ColumnConstraints />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+   </rowConstraints>
+</GridPane>
